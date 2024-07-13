@@ -37,8 +37,6 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-
-
 exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
